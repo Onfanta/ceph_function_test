@@ -6,14 +6,14 @@ import (
 
 
 func main() {
-	chos := [] string {"Pool Test","Ec Test","User Test", "Rgw Test", "Test All", "exit"}
+	chos := [] string {"Pool Test","Ec Test","User Test","Rgw Test","Test All","exit"}
 	var cho int
 	fmt.Println("function:")
 	for i:=0;i< len(chos);i++  {
 		fmt.Println(i+1,chos[i])
 	}
 	fmt.Printf("plz input option u want[1-6] :")
-	fmt.Scanln(cho)
+	fmt.Scanf("%d",&cho)
 	if cho == 5  {
 		fmt.Printf("processing...")
 		PoolTest()

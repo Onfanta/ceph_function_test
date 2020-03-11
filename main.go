@@ -13,7 +13,7 @@ func main() {
 		fmt.Printf(chos[i])
 	}
 	fmt.Printf("plz input option u want[1-6] :")
-	fmt.Scanf(cho)
+	fmt.Scanln(cho)
 	if cho == 5  {
 		fmt.Printf("processing...")
 		PoolTest()
